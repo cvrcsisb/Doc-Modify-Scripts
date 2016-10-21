@@ -20,7 +20,7 @@ for line in open('list.csv'):
 	# create a new PDF with Reportlab
 	can = canvas.Canvas(packet, (864, 608.9))
 	can.setFillColorRGB(0,0,100/256)
-	can.setFont("Allura", 40)
+	#can.setFont("Allura", 40)
 	can.drawCentredString(432, 240, line)
 	can.save()
 
